@@ -6,4 +6,4 @@ RE:从零开始的termux学习生活
 1. 酷安:http://www.coolapk.com/apk/com.termux
 2. Google play:
 
-## 简单配置 ##
+## 颜值是第一生产力 ##
