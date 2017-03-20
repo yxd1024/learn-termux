@@ -17,4 +17,6 @@ RE:从零开始的termux学习生活
 2. Google play:https://play.google.com/store/apps/details?id=com.termux
 3. f-droid:https://f-droid.org/repository/browse/?fdid=com.termux
 
+下载后直接安装就行了，完成后打开看见的没有配置过的termux是这样的……
+![这不是图片](./pic/1)
 #### 颜值是第一生产力 ####
