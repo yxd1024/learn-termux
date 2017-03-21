@@ -65,10 +65,15 @@ RE:从零开始的termux学习生活
 
     vi .hushlogin
 
+然后输入:wq保存退出。(VIM之后再详细介绍)
+
 输入exit退出，重新打开。可以看到那几行字已经消失不见了。这就清爽多了(๑•̀ㅂ•́)و✧
 
-之后就是安装可以说是目前最强shell的ZSH以及用来配置ZSH的oh-my-zsh。不过这个下载和安装酷友给出了一个比较方便的方法。
+之后就是安装可以说是目前最强shell的ZSH以及用来配置ZSH的oh-my-zsh。不过这个下载和安装酷友给出了一个比较方便的方法。具体介绍可以看这里:https://github.com/Cabbagec/termux-ohmyzsh
 
+那么根据README.md的介绍我们首先要安装的是curl工具。很简单，直接apt install curl就可以了。在滚完之后就可以安装termux-ohmyzsh了。
+
+    sh -c "$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/install.sh)"
 
 
 
