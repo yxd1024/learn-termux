@@ -69,11 +69,43 @@ RE:从零开始的termux学习生活
 
 输入exit退出，重新打开。可以看到那几行字已经消失不见了。这就清爽多了(๑•̀ㅂ•́)و✧
 
-之后就是安装可以说是目前最强shell的ZSH以及用来配置ZSH的oh-my-zsh。不过这个下载和安装酷友给出了一个比较方便的方法。具体介绍可以看这里:https://github.com/Cabbagec/termux-ohmyzsh
+之后就是安装可以说是目前最强shell的ZSH以及用来配置ZSH的oh-my-zsh。不过这个下载和安装酷友给出了一个比较方便的方法。具体介绍可以看[这里](https://github.com/Cabbagec/termux-ohmyzsh)
 
 那么根据README.md的介绍我们首先要安装的是curl工具。很简单，直接apt install curl就可以了。在滚完之后就可以安装termux-ohmyzsh了。
 
     sh -c "$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/install.sh)"
 
+接着一路确认、回车就好了。不需要修改，因为默认的主题我还挺喜欢的。当然如果不喜欢在之后可以进行更改。
+完成后可以看到，终端已经变成了彩色。
+![这是一个图片](.pic/3)
 
+接下来稍微放松一下，来点有趣的小玩意吧！
 
+    apt install cmatrix
+
+然后运行一下这个命令
+
+    cmatrix
+
+![这是一个动态图片](.pic/4)
+
+看那满满的逼格😂
+
+这里来个小提示:在命令后加上-h可以查看命令的一些简单的提醒。
+
+试试cmatrix -h命令会有下面的提示:
+
+Usage: cmatrix -[abBfhlsVx] [-u delay] [-C color]
+-a: Asynchronous scroll
+-b: Bold characters on
+-B: All bold characters (overrides -b)
+-f: Force the linux $TERM type to be on
+-l: Linux mode (uses matrix console font)
+-o: Use old-style scrolling
+-h: Print usage and exit
+-n: No bold characters (overrides -b and -B, default)
+-s: "Screensaver" mode, exits on first keystroke
+-x: X window mode, use if your xterm is using mtx.pcf
+-V: Print version information and exit
+-u delay (0 - 10, default 4): Screen update delay
+-C [color]: Use this color for matrix (default green)
