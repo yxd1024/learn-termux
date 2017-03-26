@@ -118,32 +118,7 @@ RE:从零开始的termux学习生活
 
 试试cmatrix -h命令会有下面的提示:
 
-Usage: cmatrix -[abBfhlsVx] [-u delay] [-C color]
-
--a: Asynchronous scroll
-
--b: Bold characters on
-
--B: All bold characters (overrides -b)
-
--f: Force the linux $TERM type to be on
-
--l: Linux mode (uses matrix console font)
-
--o: Use old-style scrolling
-
--h: Print usage and exit
-
--n: No bold characters (overrides -b and -B, default)
-
--s: "Screensaver" mode, exits on first keystroke
-
--x: X window mode, use if your xterm is using mtx.pcf
-
--V: Print version information and exit
-
--u delay (0 - 10, default 4): Screen update delay
-
--C [color]: Use this color for matrix (default green)
 
 可以看到各种可添加的后缀的作用。这是学习一个陌生命令很好的一个方式。除此之外还有man命令：只要在一个命令前加上个man，就能看到这个命令的详细介绍。（当然，全都是英文😂）
+
+
