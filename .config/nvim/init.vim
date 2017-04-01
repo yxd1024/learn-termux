@@ -66,29 +66,12 @@ let g:indent_guides_enable_on_vim_startup=1
 let g:indent_guides_start_level=2
 " 色块宽度
 let g:indent_guides_guide_size=1
-" 快捷键 i 开/关缩进可视化
-:nmap <silent> <Leader>i <Plug>IndentGuidesToggle
 "这是一个测试
 xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 
-nmap t1 <Plug>AirlineSelectTab1
-nmap t2 <Plug>AirlineSelectTab2
-nmap t3 <Plug>AirlineSelectTab3
-nmap t4 <Plug>AirlineSelectTab4
-nmap t5 <Plug>AirlineSelectTab5
-nmap t6 <Plug>AirlineSelectTab6
-nmap t7 <Plug>AirlineSelectTab7
-nmap t8 <Plug>AirlineSelectTab8
-nmap t9 <Plug>AirlineSelectTab9
-nmap t[ <Plug>AirlineSelectPrevTab
-nmap t] <Plug>AirlineSelectNextTab
 let g:indent_guides_enable_on_vim_startup=1
 " 从第二层开始可视化显示缩进
 let g:indent_guides_start_level=2
 " 色块宽度
 let g:indent_guides_guide_size=1
-" 快捷键 i 开/关缩进可视化
-:nmap <silent> <Leader>i <Plug>IndentGuidesToggle
-"autocmd vimenter * NERDTree
-"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") &&b:NERDTreeType == "primary") | q | endif
