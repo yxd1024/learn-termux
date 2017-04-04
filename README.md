@@ -32,10 +32,6 @@ RE:从零开始的termux学习生活
 
 可以看到上面出现了几行termux的介绍，而且界面看起来很简陋。这在之后可以进行更改，这里就先不做介绍。现在先试试一些基本的操作。
 
-
-
-
-
 比如说更新一下软件源以及升级一下软件。
 
     apt update
@@ -137,6 +133,7 @@ zsh的配置需要用到用户目录下 .zshrc 隐藏文件
 我们可以在里面添加几行配置比如说我的有
 
     alias c='clear'
+    alias e='exit'
     alias ll='ls -l'
     alias la='ls -a'
     alias vi='nvim'
