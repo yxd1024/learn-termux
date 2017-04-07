@@ -4,12 +4,19 @@ RE:从零开始的termux学习生活
 ## 前言 ##
 >Termux是一款强大的安卓终端模拟APP，无需root直接启动，自动安装最小化linux系统，使用APT作为包管理工具并提供各种各样的软件包。
 高级终端Termux组合了强大的终端模拟和拓展Linux包收集支持。
+
 • 享受bash 和 zsh。
+
 • 使用nano 和 vim编辑文件。
+
 • 通过ssh访问服务器。
+
 • 使用gcc和clang编译代码。
+
 • 使用python控制台来作为口袋计算器。
+
 • 使用git 和 subversion检查项目。
+
 • 使用frotz运行基于文本的游戏。
 [官方网站](https://termux.com/)
 
@@ -91,7 +98,9 @@ RE:从零开始的termux学习生活
 
 首先是文件的基本操作
 
+cd
 
+移动指令
 
 接下来稍微放松一下，来点有趣的小玩意吧！
 
